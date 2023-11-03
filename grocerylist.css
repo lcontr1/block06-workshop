@@ -1,19 +1,41 @@
 h1 {
-    text-align: center;
-    color: darkolivegreen;
+  text-align: center;
+  color: darkolivegreen;
 }
-section {
-    background-color: brown;
-}
+
 h2 {
-    background-color: burlywood;
+  text-align: center;
+  background-color: burlywood;
+ border-style: double;
+ border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
-@counter-style fork and knife with plate {
-    system: cyclic;
-    symbols: "\1F37D";
-    suffix: " ";
-  }
-  
-  ul {
-    list-style: fork and knife with plate;
-  }
+@counter-style plate {
+  system: cyclic;
+  symbols: "\1F37D";
+  suffix: " ";
+}
+
+ul {
+  list-style: plate;
+}
+
+img {
+    height: 150px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+
+
+section {
+    border-style: 1rem solid;
+ border-color: black;
+  display: inline-block;
+  background-color: brown;
+  margin-left: 20px;
+  margin-right: 50px;
+  padding: 3em 5em;
+}
