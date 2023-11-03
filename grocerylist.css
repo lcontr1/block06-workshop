@@ -1,16 +1,15 @@
 h1 {
-  text-align: center;
-  color: darkolivegreen;
+    color: darkolivegreen;
+    text-align: center;
 }
 
 h2 {
   text-align: center;
   background-color: burlywood;
- border-style: double;
- border-color: black;
+  border-style: double;
+  border-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
 @counter-style plate {
   system: cyclic;
@@ -23,16 +22,16 @@ ul {
 }
 
 img {
-    height: 150px;
-    margin: 20px 10px;
-    text-align: center;
+  height: 150px;
+  margin: 20px 10px;
+  padding: 2em;
+  text-align: center;
+  border-style: solid;
 }
 
-
-
 section {
-    border-style: 1rem solid;
- border-color: black;
+  border-style: solid;
+  border-color: black;
   display: inline-block;
   background-color: brown;
   margin-left: 20px;
