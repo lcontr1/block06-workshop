@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+section {
+    background-color: brown;
+}
+h2 {
+    background-color: burlywood;
+}
+@counter-style fork and knife with plate {
+    system: cyclic;
+    symbols: "\1F37D";
+    suffix: " ";
+  }
+  
+  ul {
+    list-style: fork and knife with plate;
+  }
